@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Courier New', monospace;
+}
+
+body {
+  background-color: #000000de;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #ec1f1f;
+  border: 2px solid white;
+}
+
+header .head-content {
+  text-align: center;
+  
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 10px;
+} 
+
+aside button {
+  background-color: #020c18;
+  border: 3px solid white;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  
+}
+
+main {
+  padding: 1em;
+  position: relative;
+}
+
+.aside-social {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #01070f;
+  padding: 0.5em;
+  border-radius: 0 0 0 10px;
+  border: 2px solid white;
+}
+
+article {
+  border: 2px solid rgb(241, 3, 3);
+  padding: 1em;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: #1f1f1f;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 15px;
+  margin-bottom: 0.5em;
+}
+
+.card section {
+  background-color: #2a003f;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+  border-top: 4px solid orange;
+}
+
+  
